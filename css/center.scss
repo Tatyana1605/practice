@@ -1,0 +1,24 @@
+.center {
+  height: 765px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__button {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  &__img {
+    padding-top: 20px;
+  }
+}

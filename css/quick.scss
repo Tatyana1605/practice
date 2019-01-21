@@ -1,0 +1,30 @@
+.quick {
+  height: 355px;
+  background: #11749e;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  &__section {
+    display: flex;
+    align-items: center;
+    
+    &:first-child {
+      padding-left: 215px;
+      padding-right: 50px;
+    }
+    
+    &:last-child {
+      padding-right: 215px;
+
+    }
+  }
+
+  &__img {
+    padding-right: 30px;
+  }
+
+  &__text {
+    line-height: 1.4;
+  }
+}
